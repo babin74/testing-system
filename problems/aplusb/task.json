@@ -1,0 +1,29 @@
+{
+    "details": {
+        "testing": "file",
+        "score": "binary"
+    },
+
+    "util": [
+        { "name": "gen", "src": "gen.py", "lang": "py3" },
+        { "name": "genmx", "src": "genmx.py", "lang": "py3" },
+        { "name": "check", "src": "checker.cpp", "lang": "cpp" }
+    ],
+
+    "testcases" : [
+        { "name": "001.in", "kind": "single" },
+        { "name": "002.in", "kind": "single" },
+        { "name": "003.in", "kind": "single"},
+        { "command": ["gen", "{id}", "3"],  "kind": "generated", "count": 20 },
+        { "command": ["gen", "{id}", "9"],  "kind": "generated", "count": 20 },
+        { "command": ["gen", "{id}", "18"], "kind": "generated", "count": 20 },
+        { "command": ["genmx", "{id}", "9"], "kind": "generated", "count": 4 },
+        { "command": ["genmx", "{id}", "18"], "kind": "generated", "count": 4 }
+    ],
+
+    "solutions": [
+        { "name": "solve_wa",  "src": "solve_int.cpp", "lang": "cpp", "status": "WA" },
+        { "name": "solve_cpp", "src": "solve.cpp",     "lang": "cpp", "status": "OK" },
+        { "name": "solve_py",  "src": "solve.py",      "lang": "py",  "status": "OK" }
+    ]
+}

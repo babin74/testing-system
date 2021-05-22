@@ -1,0 +1,12 @@
+{
+    "appenders": {
+        "console": { "type": "console" },
+        "historyLog": { "type": "file", "filename": "logs/history.log" }
+    },
+    "categories": {
+        "default": {
+            "appenders" : ["console", "historyLog"], 
+            "level": "INFO"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "testing-system",
+  "version": "1.0.0",
+  "description": "Testing system for olympiad problems",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "author": "babin74",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "load-json-file": "^6.2.0",
+    "log4js": "^6.3.0",
+    "npx": "^10.2.2",
+    "randomstring": "^1.2.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.0"
+  }
+}
