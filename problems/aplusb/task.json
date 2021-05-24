@@ -13,7 +13,7 @@
     "testcases" : [
         { "name": "001.in", "kind": "single" },
         { "name": "002.in", "kind": "single" },
-        { "name": "003.in", "kind": "single"},
+        { "name": "003.in", "kind": "multiple"},
         { "command": ["gen", "{id}", "3"],  "kind": "generated", "count": 20 },
         { "command": ["gen", "{id}", "9"],  "kind": "generated", "count": 20 },
         { "command": ["gen", "{id}", "18"], "kind": "generated", "count": 20 },

@@ -1,5 +1,9 @@
+import { getLogger } from "log4js";
+
 const util = require('util')
 const execFile = util.promisify(require('child_process').execFile)
+
+const logger = getLogger()
 
 const targetGcc = {
     "cc": "g++",
@@ -19,7 +23,8 @@ async function _compileGcc(inputs: string[], output: string, flags?: string[]) {
         flags.forEach(x => params.push(x))
     }
 
-    console.log(targetGcc.cc, params)
+    logger.debug("compiling - " + targetGcc.cc + " " + params.join(" "))
+
     const { stdout } = await execFile(targetGcc.cc, params)
     return stdout
 }

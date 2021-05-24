@@ -3,3 +3,66 @@
 [2021-05-22T22:40:14.604] [INFO] default - Running test #1... 
 [2021-05-22T22:40:41.789] [INFO] default - Testing system start...
 [2021-05-22T22:40:41.790] [INFO] default - Running test #1... 
+[2021-05-24T15:02:32.167] [INFO] default - Testing system server has been started!
+[2021-05-24T15:03:43.362] [INFO] default - Testing system server has been started!
+[2021-05-24T15:03:44.366] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:04:19.167] [INFO] default - Testing system server has been started!
+[2021-05-24T15:04:23.843] [WARN] default - Unknown utility program type -- javascript (name = validate)
+[2021-05-24T15:13:10.665] [INFO] default - Testing system server has been started!
+[2021-05-24T15:13:15.366] [WARN] default - Unknown utility program type -- javascript (name = validate)
+[2021-05-24T15:13:17.101] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:13:52.646] [INFO] default - Testing system server has been started!
+[2021-05-24T15:13:57.632] [ERROR] default - Unknown utility program type -- javascript (name = validate)
+[2021-05-24T15:13:57.633] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:13:57.655] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:14:35.971] [INFO] default - Testing system server has been started!
+[2021-05-24T15:14:42.326] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:15:06.257] [INFO] default - Testing system server has been started!
+[2021-05-24T15:15:10.934] [WARN] default - Unknown test type - multi
+[2021-05-24T15:15:12.647] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:15:45.766] [INFO] default - Testing system server has been started!
+[2021-05-24T15:15:50.442] [ERROR] default - Unknown test type - multi
+[2021-05-24T15:15:50.443] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:15:50.775] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:16:10.032] [INFO] default - Testing system server has been started!
+[2021-05-24T15:16:16.406] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:18:38.427] [INFO] default - Testing system server has been started!
+[2021-05-24T15:18:44.776] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:19:05.843] [INFO] default - Testing system server has been started!
+[2021-05-24T15:19:12.511] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:21:12.860] [INFO] default - Testing system server has been started!
+[2021-05-24T15:21:17.715] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:22:10.837] [INFO] default - Testing system server has been started!
+[2021-05-24T15:22:14.731] [ERROR] default - Cannot generate test 4 at group 31..320, command is ./problems/aplusb/generated/4.in1
+[2021-05-24T15:22:14.731] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:22:14.843] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:23:37.070] [INFO] default - Testing system server has been started!
+[2021-05-24T15:23:40.827] [ERROR] default - Cannot generate test 4 at group 4..23, command is ./problems/aplusb/generated/4.in1
+[2021-05-24T15:23:40.827] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:23:41.077] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:25:10.911] [INFO] default - Testing system server has been started!
+[2021-05-24T15:25:15.248] [ERROR] default - Cannot generate test 4 at group 4..23, gen is gen 1
+[2021-05-24T15:25:15.249] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:25:15.918] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:26:08.403] [INFO] default - Testing system server has been started!
+[2021-05-24T15:26:12.158] [ERROR] default - Cannot generate test 4 at group 4..23, gen is 'gen 1'
+[2021-05-24T15:26:12.158] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:26:12.409] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:26:55.502] [INFO] default - Testing system server has been started!
+[2021-05-24T15:26:59.404] [ERROR] default - Cannot generate test 4 at group 4..23, gen is 'gen 1'
+[2021-05-24T15:26:59.404] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:26:59.508] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:28:37.673] [INFO] default - Testing system server has been started!
+[2021-05-24T15:28:41.409] [ERROR] default - Cannot generate test 4 at group 4..23, gen is 'gen 1'
+[2021-05-24T15:28:41.410] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:28:41.679] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:29:44.848] [INFO] default - Testing system server has been started!
+[2021-05-24T15:29:48.618] [ERROR] default - Cannot generate test 4 at group 4..23, gen is 'gen 1'
+[2021-05-24T15:29:48.618] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:29:48.855] [FATAL] default - [ERROR] Failed to get task aplusb
+[2021-05-24T15:30:14.359] [INFO] default - Testing system server has been started!
+[2021-05-24T15:30:19.229] [INFO] default - Initializing task aplusb completed!
+[2021-05-24T15:30:38.391] [INFO] default - Testing system server has been started!
+[2021-05-24T15:30:42.050] [ERROR] default - Unknown test type - multiple
+[2021-05-24T15:30:42.051] [WARN] default - Initializing task aplusb failed!
+[2021-05-24T15:30:42.398] [FATAL] default - [ERROR] Failed to get task aplusb
